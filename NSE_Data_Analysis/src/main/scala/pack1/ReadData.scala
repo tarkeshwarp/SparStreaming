@@ -30,6 +30,8 @@ object ReadData {
   
   sumdf.withColumn("rank", row_number.over(ddd)).show()
   
+  println("end of the project")
+  
   }
   
 }
